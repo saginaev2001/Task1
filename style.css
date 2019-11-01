@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 400px;
+}
+
+p {
+    padding-left: 10px;
+}
+
+
+.car {
+    margin: auto;
+    max-width: 80%;
+    background-color: darkgray
+}
+
+.content {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    border: 2px solid black;  
+    margin-bottom: 50px;
+}
+
+.carphoto {
+    padding: 30px;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.carphoto img{
+    width: 30%;
+    height: 300px;
+
+}
+
+.mainpg {
+    padding: 30px;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.mainpg img{
+    width: 400px;
+    height: 250px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0;
+    ba
+}
+
+.tabletext {
+    padding-left: 150px;
+    text-align: left;
+    font-size: 150%; 
+}
